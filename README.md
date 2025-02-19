@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/98356afe-ac1e-4bcd-8f53-8bee200c31ec)# Automated Threat Detection & Response
+# Automated Threat Detection & Response
 This **SOAR-EDR Playbook** automates threat detection, alerting, and machine isolation using **LimaCharlie, Tines, Slack, and Email**. It streamlines incident response, reducing manual effort while ensuring fast and accurate remediation. Ideal for security teams looking to enhance efficiency and minimize threats.
 
 ![diagram](/assets/diagram.png)
