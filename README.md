@@ -1,4 +1,4 @@
-# Automated Threat Detection & Response
+![image](https://github.com/user-attachments/assets/98356afe-ac1e-4bcd-8f53-8bee200c31ec)# Automated Threat Detection & Response
 This **SOAR-EDR Playbook** automates threat detection, alerting, and machine isolation using **LimaCharlie, Tines, Slack, and Email**. It streamlines incident response, reducing manual effort while ensuring fast and accurate remediation. Ideal for security teams looking to enhance efficiency and minimize threats.
 
 ![diagram](/assets/diagram.png)
@@ -23,6 +23,16 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
    - The machine is **isolated using LimaCharlie**, and the status is reported back to Slack.  
 5. **Investigation Required** (if not confirmed)  
    - A message is sent to **Slack** to manually investigate the affected machine.  
+
+
+| **Email Alert**                                                                                     | **Slack Alert**                                                                                 |
+|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| <img src="assets/email.png" alt="Email Notification" width="400"/>                           | <img src="assets/slack.png" alt="Slack Alert" width="400"/>                              |
+
+| **User Decision Interface**                                                                         | **Workflow Diagram**                                                                             |
+|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/>               | <img src="/assets/diagram.png" alt="SOAR-EDR Workflow Diagram" width="400"/>                    |
+
 
 ## Technologies Used
 
