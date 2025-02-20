@@ -31,7 +31,7 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 
 | **User Decision Interface**                                                                         | **SOAR-EDR Playbook**                                                                             |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/>               | <img src="/assets/playbook.png" alt="SOAR-EDR Playbook" width="400"/>                    |
+| <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/>               |
 
 
 ## Technologies Used
