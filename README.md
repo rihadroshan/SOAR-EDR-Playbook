@@ -29,7 +29,7 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | <img src="assets/email.png" alt="Email Notification" width="400"/>                           | <img src="assets/slack.png" alt="Slack Alert" width="400"/>                              |
 
-| **User Decision Interface**                                                                         | **Workflow Diagram**                                                                             |
+| **User Decision Interface**                                                                         | **SOAR-EDR Playbook**                                                                             |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/>               | <img src="/assets/playbook.png" alt="SOAR-EDR Playbook" width="400"/>                    |
 
