@@ -5,11 +5,11 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 
 ## Features
 
-✅ **Automated Threat Detection** – Detects hack tools and malicious activities using **LimaCharlie**  
-✅ **Real-time Alerting** – Sends alerts with detailed information via **Slack and Email**  
-✅ **User Decision Workflow** – Prompts for manual confirmation before isolating a machine  
-✅ **Automated Machine Isolation** – Uses **LimaCharlie** to isolate infected systems  
-✅ **Incident Tracking** – Notifies teams via **Slack** if a machine is isolated or if further investigation is needed  
+**Automated Threat Detection** – Detects hack tools and malicious activities using **LimaCharlie**  
+**Real-time Alerting** – Sends alerts with detailed information via **Slack and Email**  
+**User Decision Workflow** – Prompts for manual confirmation before isolating a machine  
+**Automated Machine Isolation** – Uses **LimaCharlie** to isolate infected systems  
+**Incident Tracking** – Notifies teams via **Slack** if a machine is isolated or if further investigation is needed  
 
 ## Workflow Overview
 
