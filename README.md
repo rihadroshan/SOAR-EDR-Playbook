@@ -25,14 +25,13 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
    - A message is sent to **Slack** to manually investigate the affected machine.  
 
 
-| **Email Alert**                                                                                     | **Slack Alert**                                                                                 |
-|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| <img src="assets/email.png" alt="Email Notification" width="400"/>                           | <img src="assets/slack.png" alt="Slack Alert" width="400"/>                              |
+| Email Alert | Slack Alert |
+|------------|-------------|
+| <img src="assets/email.png" alt="Email Notification" width="400"/> | <img src="assets/slack.png" alt="Slack Alert" width="400"/> |
 
-| **User Decision Interface**                                                                         | **SOAR-EDR Playbook**                                                                             |
-|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/>               |
-
+| User Page  |
+|------------|
+|  <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/> |
 
 ## Technologies Used
 
