@@ -56,15 +56,6 @@ Security analysts can decide whether to isolate the machine through an interacti
 
 ![Web UI Decision Prompt](./assets/page.png)
 
-
-| Email Alert | Slack Alert |
-|------------|-------------|
-| <img src="assets/email.png" alt="Email Notification" width="400"/> | <img src="" alt="Slack Alert" width="400"/> |
-
-| User Page  |
-|------------|
-|  <img src="assets/page.png" alt="Web UI Decision Prompt" width="400"/> |
-
 ## Technologies Used
 
 - **LimaCharlie** – Endpoint Detection & Response (EDR)  
