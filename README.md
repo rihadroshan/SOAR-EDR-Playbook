@@ -45,10 +45,21 @@ An email notification is sent to security teams, providing details about the det
 - Sensor ID
 
 ![Email Notification](./assets/email.png)
+ 
+### **Slack Alert**
+A Slack message is sent in real-time to notify the security team of a detected threat.
+
+![Slack](.assets/slack.png)
+
+### **User Decision Page**
+Security analysts can decide whether to isolate the machine through an interactive UI.
+
+![Web UI Decision Prompt](./assets/page.png)
+
 
 | Email Alert | Slack Alert |
 |------------|-------------|
-| <img src="assets/email.png" alt="Email Notification" width="400"/> | <img src="assets/slack.png" alt="Slack Alert" width="400"/> |
+| <img src="assets/email.png" alt="Email Notification" width="400"/> | <img src="" alt="Slack Alert" width="400"/> |
 
 | User Page  |
 |------------|
