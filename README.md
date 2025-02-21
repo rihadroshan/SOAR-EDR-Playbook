@@ -11,19 +11,38 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 **Automated Machine Isolation** – Uses **LimaCharlie** to isolate infected systems  
 **Incident Tracking** – Notifies teams via **Slack** if a machine is isolated or if further investigation is needed  
 
-## Workflow Overview
+## **Workflow Overview**
+1. **Threat Detection**
+   - The system detects a compromised endpoint using **LimaCharlie**.
+   - A threat detection alert is generated and sent to **Tines**.
 
-1. **Detection**  
-   - A machine is flagged as potentially **infected** using **LimaCharlie**.  
-2. **Alerting & Notification**  
-   - A detection alert is sent to **Tines**, which forwards details to **Slack and Email**.  
-3. **User Decision**  
-   - A prompt is sent to a user (via Slack) to decide whether to isolate the machine.  
-4. **Isolation** (if confirmed)  
-   - The machine is **isolated using LimaCharlie**, and the status is reported back to Slack.  
-5. **Investigation Required** (if not confirmed)  
-   - A message is sent to **Slack** to manually investigate the affected machine.  
+2. **Alerting & Notification**
+   - Tines processes the detection alert and sends real-time notifications via **Slack** and **Email**.
 
+3. **User Decision Prompt**
+   - The user is prompted via a web UI (powered by Tines) to decide whether to isolate the compromised machine.
+   - The user chooses between:
+     - **Yes** → The machine is isolated using **LimaCharlie**.
+     - **No** → An investigation alert is sent to **Slack** for further review.
+
+4. **Automated Machine Isolation (If Confirmed)**
+   - If the user confirms isolation, LimaCharlie isolates the machine.
+   - A confirmation message is sent via **Slack**.
+
+5. **Manual Investigation Required (If Not Confirmed)**
+   - If the user declines isolation, a notification is sent to **Slack** indicating further investigation is required.
+
+## **Alert Examples**
+### **Email Alert**
+An email notification is sent to security teams, providing details about the detected threat, including:
+- Detection Type
+- Timestamp
+- Affected Host
+- Source IP
+- User Account
+- File Location
+- Command Executed
+- Sensor ID
 
 | Email Alert | Slack Alert |
 |------------|-------------|
