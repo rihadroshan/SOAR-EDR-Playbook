@@ -44,6 +44,8 @@ An email notification is sent to security teams, providing details about the det
 - Command Executed
 - Sensor ID
 
+![Email Notification](./assets/email.png)
+
 | Email Alert | Slack Alert |
 |------------|-------------|
 | <img src="assets/email.png" alt="Email Notification" width="400"/> | <img src="assets/slack.png" alt="Slack Alert" width="400"/> |
