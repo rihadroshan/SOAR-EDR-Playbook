@@ -58,7 +58,7 @@ Security analysts can decide whether to isolate the machine through an interacti
 
 ## Technologies Used
 
-- **LimaCharlie** – Endpoint Detection and Response (EDR)  
+- **LimaCharlie** – EDR (Endpoint Detection and Response)  
 - **Tines** – Security Automation & Orchestration 
 - **Slack** – Real-time Team Notifications & Alerts
 - **Email** – Incident Alerting & Reporting
