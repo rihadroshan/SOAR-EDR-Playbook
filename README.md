@@ -45,6 +45,8 @@ An email notification is sent to security teams, providing details about the det
 - Sensor ID
 
 ![Email Notification](./assets/email.png)
+<p align="center">Figure 1: User Decision Page</p>
+
  
 ### **Slack Alert**
 A Slack message is sent in real-time to notify the security team of a detected threat.
