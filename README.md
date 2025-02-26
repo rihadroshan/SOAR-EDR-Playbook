@@ -45,7 +45,7 @@ An email notification is sent to security teams, providing details about the det
 - Sensor ID
 
 ![Email Notification](./assets/email.png)
-<p align="center">Figure 1: User Decision Page</p>
+<p align="center">Figure 1: E-mail</p>
 
  
 ### **Slack Alert**
@@ -57,6 +57,8 @@ A Slack message is sent in real-time to notify the security team of a detected t
 Security analysts can decide whether to isolate the machine through an interactive UI.
 
 ![Web UI Decision Prompt](./assets/page.png)
+<p align="center">Figure 3: User Decision Page</p>
+
 
 ## Technologies Used
 
