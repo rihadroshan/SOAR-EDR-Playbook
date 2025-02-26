@@ -52,6 +52,7 @@ An email notification is sent to security teams, providing details about the det
 A Slack message is sent in real-time to notify the security team of a detected threat.
 
 ![Slack](./assets/slack.png)
+<p align="center">Figure 2: Slack</p>
 
 ### **User Decision Page**
 Security analysts can decide whether to isolate the machine through an interactive UI.
