@@ -22,7 +22,7 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 3. **User Decision Prompt**
    - The user is prompted via a web UI (powered by Tines) to decide whether to isolate the compromised machine.
    - The user chooses between:
-     - **Yes** → The machine is isolated using **LimaCharlie**.
+     - **Yes** → The machine is isolated using **LimaCharlie**
      - **No** → An investigation alert is sent to **Slack** for further review.
 
 4. **Automated Machine Isolation (If Confirmed)**
