@@ -13,7 +13,7 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 
 ## **Workflow Overview**
 1. **Threat Detection**
-   - The system detects a compromised endpoint using **LimaCharlie**.
+   - The system detects a compromised endpoint using **LimaCharlie**
    - A threat detection alert is generated and sent to **Tines**
 
 2. **Alerting & Notification**
