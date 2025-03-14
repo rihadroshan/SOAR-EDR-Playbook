@@ -54,6 +54,7 @@ A Slack message is sent in real-time to notify the security team of a detected t
 ![Slack](./assets/slack.png)
 <p align="center">Figure 2: Slack</p>
 
+
 ### **User Decision Page**
 Security analysts can decide whether to isolate the machine through an interactive UI.
 
