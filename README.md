@@ -33,6 +33,7 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
    - If the user declines isolation, a notification is sent to **Slack** indicating further investigation is required.
 
 ## **Alert Examples**
+
 ### **Email Alert**
 An email notification is sent to security teams, providing details about the detected threat, including:
 - Detection Type
