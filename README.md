@@ -3,7 +3,6 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 
 ![diagram](/assets/diagram.png)
 
-
 ## Features
 
 
