@@ -3,6 +3,7 @@ This **SOAR-EDR Playbook** automates threat detection, alerting, and machine iso
 
 ![diagram](/assets/diagram.png)
 
+
 ## Features
 
 **Automated Threat Detection** – Detects hack tools and malicious activities using **LimaCharlie**  
